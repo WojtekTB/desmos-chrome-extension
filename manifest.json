@@ -1,0 +1,17 @@
+{
+  "name": "Desmos-quick-access",
+  "version": "0.01",
+  "manifest_version": 2,
+  "description": "Quick access to desmos calculator through a pop up.",
+  "background": {
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://*"
+  ],
+  "icons": {
+    "48": "logo48.png"
+  }
+}
